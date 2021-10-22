@@ -1,6 +1,6 @@
 class HashST:
 
-    def __init__(self, size=50):
+    def __init__(self, size=2):
         self.__table = [None] * size
         self.__size = size
 
@@ -30,9 +30,9 @@ class HashST:
         if self.__table[position] is None:
             return None
         else:
-            for k in self.__table[position]:
+            for index,k in enumerate(self.__table[position]):
                 if k == key:
-                    return position
+                    return (position, index)
             return None
 
     def __str__(self):
@@ -41,3 +41,28 @@ class HashST:
             if self.__table[i] is not None:
                 to_return += str(i) + ". " + str(self.__table[i]) + '\n'
         return to_return
+
+
+if __name__ == "__main__":
+    st = HashST()
+    st.add("asdf")
+    st.add("asdf")
+    st.add("asdf1")
+    st.add("asdf2")
+    st.add("asdf3")
+    st.add("asdf4")
+    st.add("asdf5")
+    st.add("asdf6")
+    st.add("asdf7")
+    st.add("asdf8")
+    st.add("asdf9")
+    st.add("asdf10")
+    st.add("asdf11")
+    st.add("asdf12")
+    st.add("asdf13")
+    st.add("asdf14")
+    st.add("asdf15")
+    st.add("asdf16")
+    st.add("asdf17")
+    print(st['asdf11'])
+    print(st)
