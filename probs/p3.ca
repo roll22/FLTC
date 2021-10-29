@@ -1,0 +1,17 @@
+
+main{
+    Number n ;
+    in >> n ;
+    Number i ;
+    i = 0 ;
+    Number sum ;
+    sum = 0 ;
+    Number nr ;
+
+    while i < n repeat
+        in >> nr ;
+        sum = sum + nr ;
+    fi
+
+    out << sum ;
+}

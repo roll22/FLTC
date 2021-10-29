@@ -1,0 +1,28 @@
+---PIF---
+main                		 --- 		          None
+{                   		 --- 		          None
+Number              		 --- 		          None
+n                   		 --- 		          (3, 0)
+;                   		 --- 		          None
+in                  		 --- 		          (5, 0)
+>>                  		 --- 		          None
+i                   		 --- 		          (2, 0)
+=                   		 --- 		          None
+0                   		 --- 		          (9, 0)
+sum                 		 --- 		          (3, 1)
+nr                  		 --- 		          (8, 0)
+while               		 --- 		          None
+<                   		 --- 		          None
+repeat              		 --- 		          None
++                   		 --- 		          None
+fi                  		 --- 		          None
+out                 		 --- 		          (5, 1)
+<<                  		 --- 		          None
+}                   		 --- 		          None
+
+---Symbol Table--- (hashtable)
+2. ['i']
+3. ['n', 'sum']
+5. ['in', 'out']
+8. ['nr']
+9. ['0']

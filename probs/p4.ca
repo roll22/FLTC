@@ -1,0 +1,17 @@
+
+main{
+    Number n[10] ;
+    in >> n ;
+    Number i ;
+    i = -7 + 05 ;
+    Number sum ;
+    sum = 0 ;
+    Number nr ;
+    s = 'asdfa' ;
+    while i < n repeat
+        in >> nr ;
+        sum = sum + nr ;
+    fi
+
+    out << sum ;
+}

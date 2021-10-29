@@ -1,0 +1,29 @@
+---PIF---
+main                		 --- 		          None
+{                   		 --- 		          None
+Number              		 --- 		          None
+a                   		 --- 		          (7, 0)
+b                   		 --- 		          (2, 0)
+c                   		 --- 		          (5, 0)
+max                 		 --- 		          (8, 0)
+;                   		 --- 		          None
+<=                  		 --- 		          None
+7                   		 --- 		          (5, 1)
+in                  		 --- 		          (3, 0)
+>>                  		 --- 		          None
+=                   		 --- 		          None
+if                  		 --- 		          None
+>                   		 --- 		          None
+then                		 --- 		          None
+fi                  		 --- 		          None
+out                 		 --- 		          (1, 0)
+<<                  		 --- 		          None
+}                   		 --- 		          None
+
+---Symbol Table--- (hashtable)
+1. ['out']
+2. ['b']
+3. ['in']
+5. ['c', '7']
+7. ['a']
+8. ['max']

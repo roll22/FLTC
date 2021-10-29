@@ -1,0 +1,22 @@
+main{
+    Number 2min a, b, c ; // comma is an unknown character
+
+    🤘 // this emoji is an unknown character
+    in >> a ;
+    in >> b ;
+    in >> c ;
+
+    min = a ;
+    if b < min then
+        min = b ;
+    fi
+
+    if c < max then
+        min = c ;
+    fi
+
+    out << min ;
+
+
+
+}

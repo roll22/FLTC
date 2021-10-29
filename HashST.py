@@ -1,6 +1,6 @@
 class HashST:
 
-    def __init__(self, size=2):
+    def __init__(self, size=10):
         self.__table = [None] * size
         self.__size = size
 
@@ -30,7 +30,7 @@ class HashST:
         if self.__table[position] is None:
             return None
         else:
-            for index,k in enumerate(self.__table[position]):
+            for index, k in enumerate(self.__table[position]):
                 if k == key:
                     return (position, index)
             return None

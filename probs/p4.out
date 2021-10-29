@@ -1,0 +1,77 @@
+---PIF---
+12                  		 --- 		          None
+ID                  		 --- 		          (3, 0)
+116                 		 --- 		          None
+0                   		 --- 		          None
+ID                  		 --- 		          (2, 0)
+ID                  		 --- 		          (2, 1)
+114                 		 --- 		          None
+NUMBER              		 --- 		          (5, 0)
+115                 		 --- 		          None
+120                 		 --- 		          None
+13                  		 --- 		          None
+ID                  		 --- 		          (5, 1)
+112                 		 --- 		          None
+ID                  		 --- 		          (2, 1)
+120                 		 --- 		          None
+0                   		 --- 		          None
+ID                  		 --- 		          (2, 0)
+ID                  		 --- 		          (4, 0)
+120                 		 --- 		          None
+ID                  		 --- 		          (4, 0)
+105                 		 --- 		          None
+NUMBER              		 --- 		          (3, 1)
+100                 		 --- 		          None
+NUMBER              		 --- 		          (3, 2)
+120                 		 --- 		          None
+0                   		 --- 		          None
+ID                  		 --- 		          (2, 0)
+ID                  		 --- 		          (6, 0)
+120                 		 --- 		          None
+ID                  		 --- 		          (6, 0)
+105                 		 --- 		          None
+NUMBER              		 --- 		          (0, 0)
+120                 		 --- 		          None
+0                   		 --- 		          None
+ID                  		 --- 		          (2, 0)
+ID                  		 --- 		          (8, 0)
+120                 		 --- 		          None
+ID                  		 --- 		          (6, 1)
+105                 		 --- 		          None
+STRING              		 --- 		          (4, 1)
+120                 		 --- 		          None
+6                   		 --- 		          None
+ID                  		 --- 		          (3, 3)
+ID                  		 --- 		          (4, 0)
+111                 		 --- 		          None
+ID                  		 --- 		          (2, 1)
+7                   		 --- 		          None
+ID                  		 --- 		          (8, 1)
+13                  		 --- 		          None
+ID                  		 --- 		          (5, 1)
+112                 		 --- 		          None
+ID                  		 --- 		          (8, 0)
+120                 		 --- 		          None
+ID                  		 --- 		          (6, 0)
+105                 		 --- 		          None
+ID                  		 --- 		          (6, 0)
+100                 		 --- 		          None
+ID                  		 --- 		          (8, 0)
+120                 		 --- 		          None
+3                   		 --- 		          None
+ID                  		 --- 		          (2, 2)
+14                  		 --- 		          None
+ID                  		 --- 		          (5, 2)
+113                 		 --- 		          None
+ID                  		 --- 		          (6, 0)
+120                 		 --- 		          None
+117                 		 --- 		          None
+
+---Symbol Table--- (hashtable)
+0. ['0']
+2. ['Number', 'n', 'fi']
+3. ['main', '-7', '05', 'while']
+4. ['i', "'asdfa'"]
+5. ['10', 'in', 'out']
+6. ['sum', 's']
+8. ['nr', 'repeat']

@@ -1,0 +1,19 @@
+
+main{
+    Number a b c max ;
+    a <= 7 ;
+    in >> a ;
+    in >> b ;
+    in >> c ;
+
+    max = a ;
+    if b > max then
+        max = b ;
+    fi
+
+    if c > max then
+        max = c ;
+    fi
+
+    out << max ;
+}

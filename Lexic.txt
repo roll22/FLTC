@@ -1,0 +1,74 @@
+Deliverables:
+
+Lexic.txt (file containing mini language lexic description; see example)
+token.in (containing the list of all tokens corresponding to the minilanguage)
+Syntax.in - the syntactical rules of the language
+
+The minilanguage can be a restricted form of a known programming language, and should contain the following:
+
+- 2 simple data types and a user-defined type
+
+- statements:
+
+- assignment
+
+- input/output
+
+- conditional
+
+- loop
+
+- some conditions will be imposed on the way the identifiers and constants can be formed:
+
+i) Identifiers: no more than 256 characters
+
+ii) constants: corresponding to your types
+
+Specification (file Lexic.txt)
+
+Alphabet:
+
+    a. Upper (A-Z) and lower case letters (a-z) of the English alphabet
+
+    b. Underline character '_';
+
+    c. Decimal digits (0-9);
+
+Lexic:
+    a. operators
+        arithmetic: +, -, *, /, %
+        assignment: =;
+        boolean logic: and, or, not;
+        comparison: ==, !=, >=, <=, >, <;
+        io: >> <<
+
+    b. separators:
+        [], {}, :, ;, space
+
+    c. reserved words:
+        Number
+        Boolean
+        if fi then else
+        while repeat break continue
+        true false
+        main
+
+    d. identifiers
+      -a sequence of letters and  digits, such that the first character is a letter; the rule is:
+        identifier      := letter | letter {letter|digit}
+        letter          := "A" | "B" | ... | "Z" | "a" | "b" | ... | "z" |
+        digit           := "0" | non_zero_digit
+        non_zero_digit  := "1" | ... | "9"
+
+    e. constants
+        1.Number:
+              number := "0" | ["+" | "-"] non_zero_digit{digit}
+
+        2.String
+            string := ' ' | '' | 'char' | '{char}'
+            char := letter|digit
+
+        3.Boolean
+            boolean := 'true' | 'false'
+
+        constant = integer | string | boolean

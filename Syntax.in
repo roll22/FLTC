@@ -1,0 +1,44 @@
+The words - predefined tokens are specified between " and ":
+
+a) Syntactical rules:
+    program = 'main''{'stmtlist'}'
+
+    stmtlist = stmt; | stmt; stmtlist
+
+	stmt = decl | array_decl | simplestmt | structstmt
+
+	decl =  type { identifier }
+
+    type = "Number" | "String"
+
+    array_decl = type '[' number_of_elements ']'
+    number_of_elements = integer
+    array_access = identifier "[" number | identifier "]"
+
+    simplstmt = assignstmt | iostmt
+
+    assignstmt = identifier '=' (expression | identifier | const)
+
+    iostmt = instmt | outstmt
+    instmt = 'in' '>>' identifier
+    outstmt = 'out' '<<' identifier | const | expression
+
+    expression = term OPERATOR term | term
+
+    term = term operand [factor | array_access]  | factor
+
+    factor = "(" expression ")" | identifier
+
+    structstmt =  ifstmt | whilestmt
+
+    ifstmt = 'if' condition "then" stmtlist ('fi' | "else" stmtlist 'fi')
+
+    whilestmt = 'while' condition "repeat" stmtlist 'fi'
+
+    condition = '(' expression RELATION expression ')' | boolean
+
+    RELATION := "<" | "<=" | "==" | "!=" | "<>" | ">=" | ">" | 'and' | 'or'
+
+    OPERATOR = '+' | '-' | '/' | '*' | '%'
+
+
